@@ -1,0 +1,13 @@
+[Unit]
+Description=Service for LED's     
+        
+[Service]
+Type=notify
+User=root
+ExecStart=/usr/sbin/led.sh            
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
+#Alias=led.service
+
