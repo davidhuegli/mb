@@ -1,9 +1,20 @@
+# import functions
 import random
+
+# define range of the number
 randomNumber = random.randrange(0,100)
+
+# print start text
 print("Random number has been generated")
+
+# define Variable
 guessed = False
+
+# start the Game
 while guessed==False:
-    userInput = int(input("Your guess pleas: "))
+
+    # read guess from player and check the input
+    userInput = int(input("Your guess please: "))
     if userInput==randomNumber:
         guessed = True
         print("Well done!")
@@ -16,4 +27,5 @@ while guessed==False:
     elif userInput < randomNumber:
         print("Try one more time, a bit higher")
 
+# finish the program
 print("End of program")
