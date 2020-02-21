@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 import time
 import random
 
-P_LED = 11 # adapt to GPIO 17
+P_LED = 13 # adapt to GPIO 17
 fPWM = 50  # Hz (not higher with software PWM)
 
 def setup():
