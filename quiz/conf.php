@@ -2,8 +2,8 @@
 
 	//mysql credentials
 	$mysql_host = "localhost";
-	$mysql_username = "";
+	$mysql_username = "root";
 	$mysql_password = "";
-	$mysql_database = "";
+	$mysql_database = "quiz";
 
 ?>
